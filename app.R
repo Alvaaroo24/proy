@@ -6,7 +6,7 @@ library(shiny)
 library(rsconnect)
 knitr::opts_chunk$set(echo = TRUE)
 
-europa="C:/Users/prado/OneDrive/Escritorio/2º GCD/PROYECTO II/europa.xlsx"
+europa="europa.xlsx"
 hojas=excel_sheets(europa)
 
 hojas=setdiff(hojas, c("Contents", "footnotes and sources", "energy flows-energy balances", "energy products-energy balances"))
